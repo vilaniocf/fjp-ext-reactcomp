@@ -1,6 +1,6 @@
 {
   "name": "@fjp-imrs/insert-react-comp",
-  "version": "0.0.6",
+  "version": "0.0.72",
   "description": "Extensão que adiciona um component react no tiptap",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/vilaniocf/fjp-ext-reactcomp/issues"
   },
-  "homepage": "https://github.com/vilaniocf/fjp-ext-reactcomp#readme"
+  "homepage": "https://github.com/vilaniocf/fjp-ext-reactcomp#readme",
+  "dependencies": {
+    "@tiptap/core": "^2.1.13",
+    "@tiptap/pm": "^2.1.13",
+    "@tiptap/react": "^2.1.13"
+  }
 }
